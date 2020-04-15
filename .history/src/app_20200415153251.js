@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import {Card,Chart,CountryPicker} from './components'
 
 class App extends Component {
     state = {  }
@@ -7,9 +6,7 @@ class App extends Component {
         return (
             <div>
                 <h1>App</h1>
-                <Card/>
-                <Chart/>
-                <CountryPicker/>
+                
             </div>
           );
     }
